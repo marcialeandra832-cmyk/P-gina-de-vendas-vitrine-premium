@@ -59,7 +59,7 @@ export default function App() {
           {/* Subtle elegant tag */}
           <div className="inline-flex items-center gap-2 bg-brand-gold/5 border border-brand-gold/20 px-4 py-1.5 rounded-full text-brand-gold text-[10px] uppercase tracking-widest font-semibold">
             <Sparkles className="w-3 h-3 text-brand-gold" />
-            Tradição e Exclusividade Online
+            Sofisticação e Exclusividade Online
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-normal tracking-tight text-white leading-tight text-elegant-serif px-2">
