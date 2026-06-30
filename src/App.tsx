@@ -81,7 +81,7 @@ export default function App() {
             <div className="space-y-2">
               <span className="text-brand-gold uppercase tracking-widest text-xs font-bold font-mono">Oferta Imperdível</span>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-normal text-white text-elegant-serif">
-                Vitrine Premium — Condição Válida até 30/06
+                Vitrine Premium — Condição Válida para todo o mês de Julho
               </h2>
             </div>
 
@@ -97,7 +97,7 @@ export default function App() {
                 <span className="text-base text-brand-nude-taupe font-sans ml-1">à vista</span>
               </div>
               <p className="text-xs text-brand-nude-taupe mt-3 px-4 py-1 bg-brand-nude-dark/40 text-brand-nude-beige border border-brand-gold/10 rounded-full font-mono">
-                A partir de julho, retorna ao valor normal.
+                A partir de agosto, retorna ao valor normal.
               </p>
             </div>
 
