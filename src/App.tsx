@@ -63,7 +63,7 @@ export default function App() {
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-normal tracking-tight text-white leading-tight text-elegant-serif px-2">
-            Vitrine Premium — Condição Especial Esta Semana
+            Vitrine Premium — Condição Especial Este Mês
           </h1>
 
           <p className="text-brand-nude-taupe text-base sm:text-lg md:text-xl font-light leading-relaxed max-w-3xl mx-auto text-elegant-serif italic pt-2">
@@ -99,6 +99,25 @@ export default function App() {
               <p className="text-xs text-brand-nude-taupe mt-3 px-4 py-1 bg-brand-nude-dark/40 text-brand-nude-beige border border-brand-gold/10 rounded-full font-mono">
                 A partir de agosto, retorna ao valor normal.
               </p>
+            </div>
+
+            {/* Inclusions under the price */}
+            <div className="max-w-md mx-auto text-left space-y-3 py-2 text-sm">
+              <h4 className="text-brand-gold font-semibold text-xs uppercase tracking-wider text-center">O que está incluso:</h4>
+              <ul className="space-y-2.5 text-xs text-brand-nude-taupe leading-relaxed">
+                <li className="flex items-start gap-2">
+                  <span className="text-brand-gold font-bold mt-0.5">•</span>
+                  <span>Entrega em até 7 dias úteis</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-brand-gold font-bold mt-0.5">•</span>
+                  <span>30 dias de suporte pós-entrega para ajustes de conteúdo e dúvidas — atendimento em dias úteis, retorno em até 48h</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-brand-gold font-bold mt-0.5">•</span>
+                  <span>Manutenção mensal contínua disponível a partir de R$49,90/mês</span>
+                </li>
+              </ul>
             </div>
 
             <div className="pt-2 max-w-md mx-auto">
