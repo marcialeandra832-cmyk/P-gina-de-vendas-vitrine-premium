@@ -115,7 +115,7 @@ export default function App() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-brand-gold font-bold mt-0.5">•</span>
-                  <span>Manutenção mensal contínua disponível a partir de R$49,90/mês</span>
+                  <span>Manutenção mensal contínua disponível a partir de R$89,90/mês</span>
                 </li>
               </ul>
             </div>
