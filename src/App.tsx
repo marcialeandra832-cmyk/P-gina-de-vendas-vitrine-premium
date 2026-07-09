@@ -87,12 +87,12 @@ export default function App() {
 
             <div className="flex flex-col items-center justify-center py-6 border-y border-brand-gold/10 max-w-md mx-auto space-y-1">
               <span className="text-brand-nude-taupe/60 text-sm line-through tracking-wider font-mono">
-                De R$ 897,00
+                De R$ 1.297,00
               </span>
               <div className="flex items-baseline gap-1 bg-gradient-to-b from-white to-brand-nude-beige bg-clip-text text-transparent">
                 <span className="text-lg font-bold text-brand-gold mr-1">por</span>
                 <span className="text-5xl sm:text-6xl font-black tracking-tighter text-white font-serif">
-                  R$ 697
+                  R$ 897,00
                 </span>
                 <span className="text-base text-brand-nude-taupe font-sans ml-1">à vista</span>
               </div>
