@@ -34,7 +34,7 @@ export default function App() {
             </div>
             <div>
               <span className="text-xl font-bold tracking-wider text-elegant-serif text-white">MLee <span className="text-brand-gold">Digital</span></span>
-              <p className="text-[8px] text-brand-nude-taupe uppercase tracking-widest font-mono select-none">Vitrine Digital de Alto Padrão</p>
+              <p className="text-[8px] text-brand-nude-taupe uppercase tracking-widest font-mono select-none">Páginas Digitais de Alta Conversão</p>
             </div>
           </div>
 
@@ -63,7 +63,7 @@ export default function App() {
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-normal tracking-tight text-white leading-tight text-elegant-serif px-2">
-            Vitrine Premium — Condição Especial Este Mês
+            Página Premium — Condição Especial Este Mês
           </h1>
 
           <p className="text-brand-nude-taupe text-base sm:text-lg md:text-xl font-light leading-relaxed max-w-3xl mx-auto text-elegant-serif italic pt-2">
@@ -81,7 +81,7 @@ export default function App() {
             <div className="space-y-2">
               <span className="text-brand-gold uppercase tracking-widest text-xs font-bold font-mono">Oferta Imperdível</span>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-normal text-white text-elegant-serif">
-                Vitrine Premium — Condição Válida para todo o mês de Julho
+                Página Premium — Condição Válida para todo o mês de Julho
               </h2>
             </div>
 
@@ -92,7 +92,7 @@ export default function App() {
               <div className="flex items-baseline gap-1 bg-gradient-to-b from-white to-brand-nude-beige bg-clip-text text-transparent">
                 <span className="text-lg font-bold text-brand-gold mr-1">por</span>
                 <span className="text-5xl sm:text-6xl font-black tracking-tighter text-white font-serif">
-                  R$ 897,00
+                  R$ 897
                 </span>
                 <span className="text-base text-brand-nude-taupe font-sans ml-1">à vista</span>
               </div>
@@ -115,7 +115,7 @@ export default function App() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-brand-gold font-bold mt-0.5">•</span>
-                  <span>Manutenção mensal contínua disponível a partir de R$89,90/mês</span>
+                  <span>Manutenção mensal contínua disponível a partir de R$97/mês</span>
                 </li>
               </ul>
             </div>
@@ -128,7 +128,7 @@ export default function App() {
                 className="w-full bg-gradient-to-r from-brand-gold-dark via-brand-gold to-brand-gold-light hover:from-brand-gold hover:to-brand-gold-light text-brand-dark-black font-semibold uppercase tracking-widest text-xs py-4.5 px-8 rounded-xl shadow-[0_4px_25px_rgba(197,160,89,0.25)] hover:shadow-[0_4px_30px_rgba(197,160,89,0.4)] transition-all duration-300 flex items-center justify-center gap-3 group"
                 id="cta-main-btn"
               >
-                <span>Quero Garantir Minha Vitrine</span>
+                <span>Quero Garantir Minha Página Premium</span>
                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </a>
             </div>
@@ -154,9 +154,9 @@ export default function App() {
                 <Check className="w-5 h-5" />
               </div>
               <div className="space-y-1.5">
-                <h4 className="font-bold text-white tracking-wide text-sm sm:text-base">Tudo do Plano Essencial</h4>
+                <h4 className="font-bold text-white tracking-wide text-sm sm:text-base">Hospedagem e Infraestrutura Premium</h4>
                 <p className="text-xs text-brand-nude-taupe leading-relaxed">
-                  Infraestrutura base robusta, rapidez extrema de carregamento e hospedagem segura focada em resultados.
+                  Configuração de domínio próprio, servidores ultrarrápidos e certificado de segurança SSL inclusos para máxima credibilidade.
                 </p>
               </div>
             </div>
@@ -228,7 +228,7 @@ export default function App() {
               Dra. Soray Abbud — Estética Avançada
             </h4>
             <p className="text-brand-nude-taupe text-sm md:text-base font-light leading-relaxed">
-              "Vitrine digital ativa, com manutenção contratada e contínua."
+              "Página digital de alta conversão ativa, com manutenção contratada e contínua."
             </p>
           </div>
 
@@ -252,7 +252,7 @@ export default function App() {
             Dê o Próximo Passo Hoje
           </h4>
           <p className="text-xs text-brand-nude-taupe max-w-md mx-auto leading-relaxed font-light">
-            Não perca a oportunidade de possuir uma vitrine sofisticada que converte visitantes frios em clientes particulares recorrentes com a nossa condição promocional especial.
+            Não perca a oportunidade de possuir uma página digital de alta conversão que transforma visitantes em clientes de alto padrão com a nossa condição promocional especial.
           </p>
           <div className="pt-2 max-w-xs mx-auto">
             <a 
@@ -262,7 +262,7 @@ export default function App() {
               className="w-full bg-gradient-to-r from-brand-gold-dark via-brand-gold to-brand-gold-light hover:from-brand-gold hover:to-brand-gold-light text-brand-dark-black font-semibold uppercase tracking-widest text-xs py-4 px-6 rounded-xl shadow-lg transition-all duration-300 flex items-center justify-center gap-2"
               id="cta-bottom-btn"
             >
-              <span>Quero Garantir Minha Vitrine</span>
+              <span>Quero Garantir Minha Página Premium</span>
               <ArrowRight className="w-4 h-4" />
             </a>
           </div>
@@ -274,7 +274,7 @@ export default function App() {
       <footer className="border-t border-brand-nude-dark/40 bg-brand-dark-black/90 py-12 px-6">
         <div className="max-w-4xl mx-auto text-center space-y-4">
           <p className="text-xs text-brand-nude-taupe/90 font-medium">
-            MLee Digital — Vitrines digitais para profissionais de saúde e estética.
+            MLee Digital — Páginas digitais de alta conversão para profissionais liberais como: biomédicas, nutricionistas, advogadas, arquitetas, esteticistas...
           </p>
           <div className="h-[1px] bg-brand-gold/10 w-16 mx-auto"></div>
           <p className="text-[10px] text-brand-nude-taupe/50 uppercase tracking-widest font-mono">
