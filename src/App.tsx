@@ -9,8 +9,12 @@ import {
   Search, 
   Compass, 
   Layers,
-  Heart
+  Heart,
+  ExternalLink
 } from 'lucide-react';
+
+import draSorayPortrait from './assets/images/dra_soray_portrait_1785288188991.jpg';
+import clinicBgDraSoray from './assets/images/clinic_bg_dra_soray_1785288204915.jpg';
 
 export default function App() {
   const whatsappUrl = "https://wa.me/5549999619123";
@@ -81,23 +85,23 @@ export default function App() {
             <div className="space-y-2">
               <span className="text-brand-gold uppercase tracking-widest text-xs font-bold font-mono">Oferta Imperdível</span>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-normal text-white text-elegant-serif">
-                Página Premium — Condição Válida para todo o mês de Julho
+                Página Premium — Condição Válida para todo o mês de Agosto
               </h2>
             </div>
 
             <div className="flex flex-col items-center justify-center py-6 border-y border-brand-gold/10 max-w-md mx-auto space-y-1">
               <span className="text-brand-nude-taupe/60 text-sm line-through tracking-wider font-mono">
-                De R$ 1.297,00
+                De R$ 897,00
               </span>
               <div className="flex items-baseline gap-1 bg-gradient-to-b from-white to-brand-nude-beige bg-clip-text text-transparent">
                 <span className="text-lg font-bold text-brand-gold mr-1">por</span>
                 <span className="text-5xl sm:text-6xl font-black tracking-tighter text-white font-serif">
-                  R$ 897
+                  R$ 697
                 </span>
                 <span className="text-base text-brand-nude-taupe font-sans ml-1">à vista</span>
               </div>
               <p className="text-xs text-brand-nude-taupe mt-3 px-4 py-1 bg-brand-nude-dark/40 text-brand-nude-beige border border-brand-gold/10 rounded-full font-mono">
-                A partir de agosto, retorna ao valor normal.
+                A partir de setembro, retorna ao valor normal.
               </p>
             </div>
 
@@ -216,32 +220,113 @@ export default function App() {
           </div>
         </section>
 
-        {/* Social Proof Section (Exact details only) */}
-        <section className="bg-brand-dark-charcoal border border-brand-gold/20 rounded-3xl p-8 md:p-10 space-y-6" id="social-proof-case">
-          <div className="flex items-center gap-2 text-brand-gold text-xs font-bold uppercase tracking-wider font-mono">
-            <Award className="w-4.5 h-4.5" />
-            <span>Caso Real</span>
+        {/* Social Proof Section - Visual Case Card */}
+        <section className="bg-brand-dark-charcoal border border-brand-gold/30 rounded-3xl p-6 sm:p-8 md:p-10 space-y-8 shadow-[0_10px_40px_rgba(0,0,0,0.5)] overflow-hidden relative" id="social-proof-case">
+          {/* Subtle gold accent light */}
+          <div className="absolute -top-24 -right-24 w-60 h-60 bg-brand-gold/10 rounded-full blur-3xl pointer-events-none"></div>
+
+          <div className="flex flex-wrap items-center justify-between gap-4 border-b border-brand-gold/10 pb-5">
+            <div className="flex items-center gap-2.5 text-brand-gold text-xs font-bold uppercase tracking-wider font-mono">
+              <Award className="w-4.5 h-4.5" />
+              <span>Caso Real em Atividade</span>
+            </div>
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-950/60 border border-emerald-500/30 text-emerald-400 text-xs font-medium">
+              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+              <span>Página Online & Operacional</span>
+            </div>
           </div>
 
-          <div className="space-y-4">
-            <h4 className="text-2xl font-normal text-white text-elegant-serif">
+          <div className="space-y-2">
+            <h3 className="text-2xl sm:text-3xl font-normal text-white text-elegant-serif">
               Dra. Soray Abbud — Estética Avançada
-            </h4>
+            </h3>
             <p className="text-brand-nude-taupe text-sm md:text-base font-light leading-relaxed">
-              "Página digital de alta conversão ativa, com manutenção contratada e contínua."
+              Página digital de alta conversão ativa, com manutenção contratada e contínua desenvolvida pela MLee Digital.
             </p>
           </div>
 
-          <div className="pt-2 flex flex-wrap gap-4 items-center justify-between border-t border-brand-gold/10 pt-6">
-            <span className="text-xs text-brand-nude-taupe italic">Consulte o portfólio oficial implementado:</span>
+          {/* Realistic Web Mockup Frame depicting Dra. Soray's page */}
+          <div className="rounded-2xl border border-brand-gold/20 overflow-hidden shadow-2xl bg-black/80 group transition-all duration-500 hover:border-brand-gold/40">
+            {/* Browser Header Bar */}
+            <div className="bg-brand-dark-black/90 px-4 py-3 border-b border-white/10 flex items-center justify-between">
+              <div className="flex items-center gap-1.5">
+                <div className="w-2.5 h-2.5 rounded-full bg-red-500/70"></div>
+                <div className="w-2.5 h-2.5 rounded-full bg-yellow-500/70"></div>
+                <div className="w-2.5 h-2.5 rounded-full bg-green-500/70"></div>
+              </div>
+              <div className="bg-white/5 border border-white/10 rounded-md px-4 py-1 text-[11px] text-brand-nude-taupe/80 font-mono max-w-xs truncate flex items-center gap-2">
+                <span className="text-emerald-400">https://</span>
+                <span>www.drasorayabbud.com.br</span>
+              </div>
+              <div className="text-[10px] text-brand-gold font-mono uppercase tracking-wider hidden sm:block">
+                Modelo Oficial
+              </div>
+            </div>
+
+            {/* Mockup Canvas Screen */}
+            <div className="relative min-h-[380px] sm:min-h-[420px] flex flex-col items-center justify-center p-8 sm:p-12 text-center overflow-hidden">
+              {/* Clinic Background Image with dark overlay */}
+              <img 
+                src={clinicBgDraSoray} 
+                alt="Clínica Dra. Soray Abbud" 
+                className="absolute inset-0 w-full h-full object-cover object-center filter brightness-[0.35] contrast-[1.1] transition-transform duration-700 group-hover:scale-105"
+                referrerPolicy="no-referrer"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+
+              {/* Content Card Overlay */}
+              <div className="relative z-10 max-w-lg mx-auto space-y-5 flex flex-col items-center">
+                {/* Circular Profile Avatar */}
+                <div className="relative">
+                  <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-full p-1 bg-gradient-to-tr from-[#C5A059] via-[#D7C4A5] to-[#C5A059] shadow-xl">
+                    <img 
+                      src={draSorayPortrait} 
+                      alt="Dra. Soray Abbud" 
+                      className="w-full h-full object-cover rounded-full"
+                      referrerPolicy="no-referrer"
+                    />
+                  </div>
+                </div>
+
+                {/* Subtitle Label */}
+                <span className="text-[11px] sm:text-xs text-[#E5C453] tracking-[0.25em] uppercase font-medium">
+                  DRA. SORAY ABBUD
+                </span>
+
+                {/* Main Heading */}
+                <h4 className="text-2xl sm:text-3xl md:text-4xl text-white font-normal text-elegant-serif tracking-wider leading-tight uppercase">
+                  SORAY ABBUD ESTÉTICA AVANÇADA
+                </h4>
+
+                {/* Tagline */}
+                <p className="text-xs sm:text-sm text-brand-nude-beige/90 max-w-md font-light leading-relaxed">
+                  Eleve sua autoestima com a expertise de quem entende de beleza natural.
+                </p>
+
+                {/* Terracotta / Rose CTA button mockup */}
+                <div className="pt-2">
+                  <div className="inline-flex items-center gap-2 bg-[#C38E7C] hover:bg-[#B37E6C] text-white font-medium text-xs px-6 py-3 rounded-full shadow-lg transition-transform duration-300 transform group-hover:scale-105">
+                    <MessageSquare className="w-4 h-4 fill-current" />
+                    <span>Agendar avaliação</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="pt-2 flex flex-wrap gap-4 items-center justify-between border-t border-brand-gold/10">
+            <span className="text-xs text-brand-nude-taupe italic">
+              Acesse a estrutura real online desenvolvida para a Dra. Soray:
+            </span>
             <a 
               href="https://www.drasorayabbud.com.br/" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="inline-flex items-center gap-2 text-brand-gold hover:text-brand-gold-light text-xs font-bold tracking-wide transition-all border-b border-brand-gold/30 hover:border-brand-gold-light pb-0.5"
+              className="inline-flex items-center gap-2 bg-brand-gold/10 hover:bg-brand-gold/20 text-brand-gold hover:text-brand-gold-light text-xs font-bold tracking-wide px-4 py-2.5 rounded-xl border border-brand-gold/30 transition-all shadow-sm"
+              id="visit-drasoray-site-btn"
             >
               <span>Ver Site Oficial da Dra. Soray Abbud</span>
-              <ArrowRight className="w-3.5 h-3.5" />
+              <ExternalLink className="w-3.5 h-3.5" />
             </a>
           </div>
         </section>
