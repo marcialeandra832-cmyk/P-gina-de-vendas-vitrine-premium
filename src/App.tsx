@@ -100,6 +100,9 @@ export default function App() {
                 </span>
                 <span className="text-base text-brand-nude-taupe font-sans ml-1">à vista</span>
               </div>
+              <span className="text-sm sm:text-base font-semibold text-brand-gold tracking-wide pt-1">
+                ou 3x de R$ 247 no cartão
+              </span>
               <p className="text-xs text-brand-nude-taupe mt-3 px-4 py-1 bg-brand-nude-dark/40 text-brand-nude-beige border border-brand-gold/10 rounded-full font-mono">
                 A partir de setembro, retorna ao valor normal.
               </p>
